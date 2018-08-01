@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             x:Class="ClientXamarin.Portable.StartPage">
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Conversational UI demo!" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Please enter your name:"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+
+        <Entry Text="{Binding UserName, Mode=TwoWay}" 
+               Margin="5"
+               Completed="Entry_Completed"/>
+
+        <StackLayout Orientation="Horizontal"     
+                         VerticalOptions="Center" 
+                         HorizontalOptions="CenterAndExpand" >
+
+            <Button Text="Login" Clicked="Login_Button_Click" Margin="5"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

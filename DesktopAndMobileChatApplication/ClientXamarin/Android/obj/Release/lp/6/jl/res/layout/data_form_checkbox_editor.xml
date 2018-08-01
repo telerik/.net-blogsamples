@@ -1,0 +1,1 @@
+<CheckBox android:id="@+id/data_form_checkbox_editor" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="42dp" android:textSize="@dimen/data_form_editor_header_text_size" android:textColor="?android:attr/textColorTertiary" xmlns:android="http://schemas.android.com/apk/res/android" />

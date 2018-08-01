@@ -1,0 +1,1 @@
+<com.telerik.widget.primitives.panels.RadScrollView app:scrollMode="horizontal|vertical" android:scrollbars="horizontal|vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"></com.telerik.widget.primitives.panels.RadScrollView>

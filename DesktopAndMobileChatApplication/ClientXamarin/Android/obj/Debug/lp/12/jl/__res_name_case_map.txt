@@ -1,0 +1,9 @@
+Values/Strings.xml;values/strings.xml
+drawable/TelerikChatAuthor.png;drawable/telerikchatauthor.png
+drawable/TelerikSendMessage.png;drawable/teleriksendmessage.png
+drawable-hdpi/TelerikChatAuthor.png;drawable-hdpi/telerikchatauthor.png
+drawable-xhdpi/TelerikChatAuthor.png;drawable-xhdpi/telerikchatauthor.png
+drawable-xxhdpi/TelerikChatAuthor.png;drawable-xxhdpi/telerikchatauthor.png
+drawable-hdpi/TelerikSendMessage.png;drawable-hdpi/teleriksendmessage.png
+drawable-xhdpi/TelerikSendMessage.png;drawable-xhdpi/teleriksendmessage.png
+drawable-xxhdpi/TelerikSendMessage.png;drawable-xxhdpi/teleriksendmessage.png

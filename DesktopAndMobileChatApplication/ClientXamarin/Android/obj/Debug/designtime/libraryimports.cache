@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments>
+    <ManifestDocument>obj\Debug\lp\2\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\3\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\4\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\5\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\6\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\7\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\8\jl\AndroidManifest.xml</ManifestDocument>
+  </ManifestDocuments>
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj\Debug\lp\2\jl\bin\Chart.jar</Jar>
+    <Jar>obj\Debug\lp\3\jl\bin\Common.jar</Jar>
+    <Jar>obj\Debug\lp\4\jl\bin\Data.jar</Jar>
+    <Jar>obj\Debug\lp\5\jl\bin\Gauges.jar</Jar>
+    <Jar>obj\Debug\lp\6\jl\bin\Input.jar</Jar>
+    <Jar>obj\Debug\lp\7\jl\bin\List.jar</Jar>
+    <Jar>obj\Debug\lp\8\jl\bin\Primitives.jar</Jar>
+  </Jars>
+</Paths>

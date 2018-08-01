@@ -1,0 +1,1 @@
+<resources><style name="RadScrollViewStyle"><item name="fillViewport">false</item><item name="scrollMode">vertical</item></style><style name="RadScrollViewTheme"><item name="radScrollViewStyle">@style/RadScrollViewStyle</item></style></resources>

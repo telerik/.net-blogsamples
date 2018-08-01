@@ -1,0 +1,1 @@
+<EditText android:id="@+id/data_form_date_editor" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="@dimen/data_form_editor_text_size" android:inputType="none" android:focusable="false" android:focusableInTouchMode="false" android:editable="false" xmlns:android="http://schemas.android.com/apk/res/android" />

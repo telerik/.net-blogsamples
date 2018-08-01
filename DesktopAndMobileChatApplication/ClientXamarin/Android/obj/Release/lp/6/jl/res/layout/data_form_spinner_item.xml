@@ -1,0 +1,1 @@
+<TextView android:id="@android:id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="0dp" android:singleLine="true" android:ellipsize="marquee" style="?android:attr/spinnerItemStyle" xmlns:android="http://schemas.android.com/apk/res/android" />

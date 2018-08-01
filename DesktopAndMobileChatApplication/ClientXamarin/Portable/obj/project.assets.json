@@ -1,0 +1,762 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile259": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-arm": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-arm-aot": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-arm64-aot": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-x64": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-x64-aot": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-x86": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win10-x86-aot": {
+      "Microsoft.AspNet.SignalR.Client/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "SkiaSharp/1.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.2",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.5.0.121934": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll": {},
+          "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.SignalR.Client/2.3.0": {
+      "sha512": "4yc83kBdDuL/8A3f7LQ71tmEGTZfpApiuRC2nTdjSGbCAoO2TavR8rn/By34aNxID2FufZCRAoj3EW4oOW0nkg==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.client/2.3.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netcore50/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/netcore50/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/portable-win81+wpa81/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/portable-win81+wpa81/Microsoft.AspNet.SignalR.Client.dll",
+        "microsoft.aspnet.signalr.client.2.3.0.nupkg.sha512",
+        "microsoft.aspnet.signalr.client.nuspec"
+      ]
+    },
+    "SkiaSharp/1.59.2": {
+      "sha512": "C0xCarWrHXc683SabhWEQW3D1Ky1k6DFu9oI5wKfvKrFJ0g5NL5DjMor1Qgdr5U7L9zUDI2YrPSApVwJQsF8UQ==",
+      "type": "package",
+      "path": "skiasharp/1.59.2",
+      "files": [
+        "build/net45/SkiaSharp.dll.config",
+        "build/net45/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/XamarinMac/SkiaSharp.dll",
+        "lib/XamarinMac/SkiaSharp.xml",
+        "lib/XamariniOS/SkiaSharp.dll",
+        "lib/XamariniOS/SkiaSharp.xml",
+        "lib/XamarintvOS/SkiaSharp.dll",
+        "lib/XamarintvOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.dll.config",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.59.2.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.59.2": {
+      "sha512": "PbYgMnquZ+eFrqd32map8nIdZOFL/SVdj+003xzwNCoDT56iEjdk4CNkTQ1Uq9QHfsFhkuqZsY8lzmxNOn+Yzw==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.59.2",
+      "files": [
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Forms.dll",
+        "lib/XamariniOS/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "skiasharp.views.forms.1.59.2.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms/2.5.0.121934": {
+      "sha512": "H3Gh6nvximMk9i8LdfhPnARo+kEsh8hDXWRboiUPb1r22gkIGA8i8tbnRcSXJWk4fCW/kdMTom6SFN0L+NhItw==",
+      "type": "package",
+      "path": "xamarin.forms/2.5.0.121934",
+      "files": [
+        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard1.0/Xamarin.Forms.Core.dll",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard1.0/Xamarin.Forms.props",
+        "build/netstandard1.0/Xamarin.Forms.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Mdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Pdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Rocks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Build.Tasks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.DefaultItems.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
+        "lib/MonoAndroid10/FormsViewGroup.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll.mdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/WP80/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/WP80/Xamarin.Forms.Core.dll",
+        "lib/WP80/Xamarin.Forms.Core.pdb",
+        "lib/WP80/Xamarin.Forms.Core.xml",
+        "lib/WP80/Xamarin.Forms.Platform.WP8.dll",
+        "lib/WP80/Xamarin.Forms.Platform.dll",
+        "lib/WP80/Xamarin.Forms.Xaml.dll",
+        "lib/WP80/Xamarin.Forms.Xaml.pdb",
+        "lib/WP80/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll.mdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll.mdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+        "lib/win81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/win81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/win81/Xamarin.Forms.Core.dll",
+        "lib/win81/Xamarin.Forms.Core.xml",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.dll",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.pri",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsProgressBarStyle.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.dll",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/win81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
+        "lib/win81/Xamarin.Forms.Platform.dll",
+        "lib/win81/Xamarin.Forms.Xaml.dll",
+        "lib/win81/Xamarin.Forms.Xaml.xml",
+        "lib/wpa81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/wpa81/Xamarin.Forms.Core.dll",
+        "lib/wpa81/Xamarin.Forms.Core.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.dll",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.pri",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsProgressBarStyle.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsTextBoxStyle.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/PhoneResources.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Resources.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/SearchBox.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Xamarin.Forms.Platform.WinRT.Phone.xr.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.dll",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.dll",
+        "lib/wpa81/Xamarin.Forms.Xaml.dll",
+        "lib/wpa81/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.2.5.0.121934.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETPortable,Version=v4.5,Profile=Profile259": [
+      "Microsoft.AspNet.SignalR.Client >= 2.3.0",
+      "SkiaSharp >= 1.59.2",
+      "SkiaSharp.Views.Forms >= 1.59.2",
+      "Xamarin.Forms >= 2.5.0.121934"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\krumov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\krumov\\Source\\Repos\\.net-blogsamples\\DesktopAndMobileChatApplication\\ClientXamarin\\Portable\\ClientXamarin.Portable.csproj",
+      "projectName": "ClientXamarin.Portable",
+      "projectPath": "C:\\Users\\krumov\\Source\\Repos\\.net-blogsamples\\DesktopAndMobileChatApplication\\ClientXamarin\\Portable\\ClientXamarin.Portable.csproj",
+      "packagesPath": "C:\\Users\\krumov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krumov\\Source\\Repos\\.net-blogsamples\\DesktopAndMobileChatApplication\\ClientXamarin\\Portable\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\krumov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "portable45-net45+win8+wp8+wpa81"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
+      },
+      "frameworks": {
+        "portable45-net45+win8+wp8+wpa81": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wp8+wpa81": {
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Client": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[1.59.2, )"
+          },
+          "SkiaSharp.Views.Forms": {
+            "target": "Package",
+            "version": "[1.59.2, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[2.5.0.121934, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  }
+}

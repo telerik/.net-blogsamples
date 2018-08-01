@@ -1,0 +1,1 @@
+<SeekBar android:id="@+id/data_form_seekbar_editor" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="@dimen/data_form_editor_text_size" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" />

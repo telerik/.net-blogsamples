@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\2\jl\bin\Chart.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\3\jl\bin\Common.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\4\jl\bin\Data.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\5\jl\bin\Gauges.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\6\jl\bin\Input.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\7\jl\bin\List.jar</Jar>
+    <Jar>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\8\jl\bin\Primitives.jar</Jar>
+  </Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\2\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\3\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\4\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\5\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\6\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\7\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\8\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\10\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\11\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\12\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\13\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\16\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\17\jl\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Release\lp\10\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\11\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\12\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\13\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\16\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\17\jl\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\4.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\5.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\6.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\7.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\8.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\10.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\11.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\12.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\13.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\16.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\krumov\Source\Repos\.net-blogsamples\DesktopAndMobileChatApplication\ClientXamarin\Android\obj\Release\lp\17.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

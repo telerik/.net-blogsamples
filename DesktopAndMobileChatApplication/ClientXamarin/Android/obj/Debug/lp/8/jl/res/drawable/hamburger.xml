@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><bitmap android:gravity="left|center_vertical" android:src="@drawable/hmb" /></item></layer-list>
